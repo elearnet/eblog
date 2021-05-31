@@ -8,7 +8,7 @@ plugins {
 group = "run.halo.app"
 version = "1.4.8"
 description = "Halo, An excellent open source blog publishing application."
-sourceCompatibility = JavaVersion.VERSION_11
+sourceCompatibility = JavaVersion.VERSION_12
 
 checkstyle {
     toolVersion = "8.39"

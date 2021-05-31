@@ -1,6 +1,7 @@
 -- Migrate * to 1.1.3
 
 -- Migrate options Table
+/*
 update options set option_key = 'oss_ali_domain_protocol' where option_key = 'oss_aliyun_domain_protocol';
 update options set option_key = 'oss_ali_domain' where option_key = 'oss_aliyun_domain';
 update options set option_key = 'oss_ali_endpoint' where option_key = 'oss_aliyun_endpoint';
@@ -33,3 +34,5 @@ alter table attachments modify media_type varchar (127) not null;
 -- Migrate posts Table
 alter table posts modify `original_content` longtext not null;
 alter table posts modify `format_content` longtext not null;
+
+ */
